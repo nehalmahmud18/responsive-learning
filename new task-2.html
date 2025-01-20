@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
+    height: 600px;
+
+  
+}
+div{
+    border: 2px solid red;
+
+}
+.box-1{
+    grid-column: 1;
+    grid-row: 1/span 2;
+
+}
+.box-2{
+    grid-column: 2/ span 3;
+    grid-row:1;
+}
+.box-3{
+    grid-column: 2;
+    grid-row: 2;
+}
+.box-4{
+    grid-column: 3;
+    grid-row: 2;
+}
+</style>
+</head>
+<body>
+    <section >
+        <div class="box-1">1</div>
+    <div class="box-2">2</div>
+    <div class="bpx-3">3</div>
+    <div class="box-4">4</div>
+
+
+    </section>
+</body>
+</html>
