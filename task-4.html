@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>food blog</title>
+    <style>
+        .news-blog{
+
+            display: flex;
+            border: 1px solid aliceblue;
+            margin-bottom: 20px;
+
+        }
+        .main-news{
+            padding: 10px;
+        }
+        .btn{
+            color:aliceblue;
+            background-color: blue;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        @media screen and (max-width:576px) {
+
+            .news-blog{
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h3>New Food Blogs</h3>
+    </header>
+    <main>
+        <section>
+            <div class="news-blog">
+                <img src="./vegetables.jpeg" alt="">
+                <div class="main-news">
+                    <div class="news-title"><h3>port title will be here</h3></div>
+                <p class="lorem25">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum assumenda veritatis dolorum delectus, culpa reiciendis qui. Ratione provident ut repellat dolores adipisci labore aut earum!</p>
+                <button class="btn">Read more</button>
+
+                </div>
+                
+            </div>
+            <div class="news-blog">
+                <img src="./vegetables.jpeg" alt="">
+                <div class="main-news">
+                    <div class="news-title"><h3>port title will be here</h3></div>
+                <p class="lorem25">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum assumenda veritatis dolorum delectus, culpa reiciendis qui. Ratione provident ut repellat dolores adipisci labore aut earum!</p>
+                <button class="btn">Read more</button>
+
+                </div>
+                
+            </div>
+           
+            <div class="news-blog">
+                <img src="./vegetables.jpeg" alt="">
+                <div class="main-news">
+                    <div class="news-title"><h3>port title will be here</h3></div>
+                <p class="lorem25">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum assumenda veritatis dolorum delectus, culpa reiciendis qui. Ratione provident ut repellat dolores adipisci labore aut earum!</p>
+                <button class="btn">Read more</button>
+
+                </div>
+                
+            </div>
+            
+        </section>
+    </main>
+   
+    
+</body>
+</html>
