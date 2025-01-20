@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive</title>
+    <style>
+        body{
+            border: 1px solid tomato;
+            max-width: 1140px;
+            margin: 0 auto;
+        }
+        .container{
+            display: flex;
+
+        }
+        .container div{
+            width: 50%;
+        }
+        .container img{
+            width: 100%;
+        }
+        @media screen and (max-width: 576px){
+            .container{
+                flex-direction:column-reverse;
+            }
+            .container div{
+                width: 100%;
+
+            }
+
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <img src="./vegetables.jpeg" alt="">
+
+        </div>
+        <div>
+            <img src="./images/Walking_tiger_female.jpg" alt="">
+        </div>
+    </div>
+    
+
+    
+</body>
+</html>
